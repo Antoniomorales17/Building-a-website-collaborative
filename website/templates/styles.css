@@ -1,0 +1,21 @@
+.card-title{
+    display: flex;
+    padding-top: 7%;
+    font-family: sans-serif;
+    color:dodgerblue
+}
+
+.card-text{
+    font-size:small;
+    font-family:sans-serif;
+    text-align: left;
+    display: flex;
+    padding-top: 1%;
+    
+
+}
+   
+.img{
+    display: flex;
+}
+

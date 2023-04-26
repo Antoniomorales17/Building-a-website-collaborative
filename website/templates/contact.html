@@ -1,20 +1,21 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
-<h1>"Contact"</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipiscing elit neque faucibus platea, hac primis tincidunt vestibulum condimentum ac ridiculus sapien maecenas turpis commodo, malesuada ad nostra enim eros gravida nulla curae tempor.</p>
-<form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+
+<div id="contact">
+    <h1>Contact</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit neque faucibus platea, hac primis tincidunt vestibulum condimentum ac ridiculus sapien maecenas turpis commodo, malesuada ad nostra enim eros gravida nulla curae tempor.</p>
+      <div class="container bg-white p-5">
+        <fieldset disabled>
+          <div class="mb-3">
+           <label for="disabledTextInput" class="form-label">Your E-mail</label>
+           <input type="text" id="disabledTextInput" class="form-control" placeholder="Your email">
+          </div>
+          <div>
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Please enter your message here..."></textarea>
+          </div>
+          <div class="col12 d-flex justify-content-end">
+           <button type="submit" class="btn btn-primary" class="">Submit</button>
+          </div>
+        </fieldset>
+      </div> 
+</div>

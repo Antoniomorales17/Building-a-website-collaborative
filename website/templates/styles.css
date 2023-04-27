@@ -1,0 +1,44 @@
+
+h2{
+    margin-left: 1%;
+}
+
+
+
+p{
+    margin-left: 1%;
+
+}
+
+
+card-group{
+    border:none
+
+
+}
+.card-title{
+    display: flex;
+    padding-top: 7%;
+    font-family: sans-serif;
+    color:dodgerblue
+}
+
+.card-text{
+    font-size:small;
+    font-family:sans-serif;
+    text-align: left;
+    display: flex;
+    padding-top: 1%;
+    
+
+}
+   
+.img{
+    
+    display: flex;
+}
+
+
+.container{
+    margin-top: 5%;
+}

@@ -1,17 +1,13 @@
 
-h2{
-    margin-left: 1%;
-}
-
-
-
 p{
-    margin-left: 1%;
-
+    margin-left: 2%;
 }
 
 
-
+h2{
+    margin-left: 2%;
+    margin-top: 4%;
+}
 .card-title{
     display: flex;
     padding-top: 7%;
@@ -30,11 +26,7 @@ p{
 }
    
 .img{
-    
     display: flex;
 }
 
 
-.container{
-    margin-top: 5%;
-}
